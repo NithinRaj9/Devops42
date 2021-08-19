@@ -1,0 +1,18 @@
+Void Swap()
+{
+   int a = 1;
+   int b = 2;
+   int c = 0;
+
+   printf(" swap a = %d, b = %d",&a,&b);
+
+   c = b;
+   b = a;
+   a = c;
+
+   printf(" after swap a = %d, b = %d",&a,&b);
+
+   printf(" Sprint-1");
+
+
+}
