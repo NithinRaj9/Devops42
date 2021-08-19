@@ -1,0 +1,24 @@
+void palindrome()
+{
+
+     String Name [];
+     int i = 0;
+     int StrLen = 0;
+     int Count = 0;
+     char Validate;
+        printf("Enter a Name: ");
+        scanf("%s",&Name);
+        StrLen = strlen(Name);
+	//StrLen = StrLen/2;   // need to take Half count
+	for(i = 0,j=StrLen;i=<StrLen/2;i++,j--)
+	  {
+	     
+             if(Name[i] == Name[StrLen])
+	       Count++;
+
+	  }
+	  if(Count == StrLen/2)
+	    printf(Given  is Palindrome);
+
+
+}
